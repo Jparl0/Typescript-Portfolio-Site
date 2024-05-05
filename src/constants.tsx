@@ -1,9 +1,17 @@
+interface ProjectsDataObject {
+  id: number
+  title: string
+  img_src: string
+  link: string
+  description: string
+}
+
 export const SOCIAL_LINKS = {
     LINKEDIN: 'http://www.linkedin.com/in/joey-parlamenti',
     GITHUB: 'https://github.com/Jparl0'
 }
 
-export const PROJECTS_DATA = [
+export const projectData: ProjectsDataObject[] = [
     {
         id: 1,
         title: "Satisfactory Planner", 

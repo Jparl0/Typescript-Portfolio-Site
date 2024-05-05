@@ -1,7 +1,11 @@
-import { PROJECTS_DATA } from '../constants'
+import { projectData } from '../constants'
 import HeaderPic from './assets/photos/header-pic.png'
 import Projects from '../components/Projects'
+import React from 'react'
 
+interface MountedProjectProp {
+  children: React.ReactNode
+}
 
 export default function HomePage(): JSX.Element {
     return (
@@ -55,9 +59,9 @@ export default function HomePage(): JSX.Element {
           <div className='projects-container'>
             {
               // Maps over the Array of Objects set above to dynamically render each Project with corresponding information
-            //   PROJECTS_DATA.map(mappedProj => {
-            //     return (<Projects key={mappedProj.id} mappedProj={mappedProj}/>)
-            //   }) 
+              projectData.map((mappedProj) => {
+                 return (<Projects key={mappedProj.id} mappedProj={mappedProj}/>)
+              }) 
             }
           </div>
         </div>
