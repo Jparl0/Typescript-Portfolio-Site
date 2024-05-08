@@ -19,10 +19,9 @@ export default function ProjectSection<T>(props: ProjectsProp<T>): JSX.Element {
             <div>
                 
                 <div>
-                   {projects.map((mappedProj) => renderProjects((project) => <ProjectItem />))}
+                   {projects.map((mappedProj: Project) => renderProjects((mappedProj: Project) => {<ProjectItem key={mappedProj.id} mappedProj={mappedProj}/>}))}
                 </div>
-                    
-                
+        
             </div>
     )
 }

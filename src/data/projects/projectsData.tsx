@@ -7,7 +7,7 @@ export interface Project {
   }
 
 export const projectsData: Project[] = [
-    {
+      {
         id: 1,
         title: "Satisfactory Planner", 
         img_src: "./images/Satisfactory.jpeg", 

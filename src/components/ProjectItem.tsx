@@ -1,13 +1,13 @@
 import { Project } from '../data/projects/projectsData'
 
 interface IncomingProjectProp extends Project{
-    isMounted: true
+    // isMounted: true
     mappedProj: Project
 }
 
 export default function ProjectItem(props: IncomingProjectProp): JSX.Element {
     const {mappedProj} = props
-    const {title, img_src, link, description} = mappedProj
+    const {id, title, img_src, link, description} = mappedProj
     
     return (
         <div className='project-cards'>
