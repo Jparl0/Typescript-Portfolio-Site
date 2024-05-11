@@ -6,7 +6,7 @@ export interface Project {
     description: string
   }
 
-export const projectsData: Project[] = [
+export const projectsData = [
       {
         id: 1,
         title: "Satisfactory Planner", 

@@ -1,27 +1,22 @@
 import ProjectItem from '../components/ProjectItem'
-import { Project } from '../data/projects/projectsData'
+import { Project, projectsData } from '../data/projects/projectsData'
 
-interface ProjectsProp<T> {
-  projects: Project[]
-  projectsRenderer: (project: T) => JSX.Element
-}
-
-export default function ProjectSection<T>(props: ProjectsProp<T>): JSX.Element {
-    const {projects, projectsRenderer} = props
-    const renderProjects = (project: T): JSX.Element => (
-        <div>
-            {projectsRenderer(project)}
-        </div>
-    )
+export default function ProjectSection(): JSX.Element {
+    
+    function renderProjects (mappedProj: Project): JSX.Element {
+        return (
+            <div>
+                <ProjectItem project={mappedProj}/>
+            </div>
+        )
+    }
 
     return (
-        // Maps over the Array of Objects set above to dynamically render each Project with corresponding information
+        // Maps over the Array of Project Objects to dynamically render each Project with corresponding data
             <div>
-                
-                <div>
-                   {projects.map((mappedProj: Project) => renderProjects((mappedProj: Project) => {<ProjectItem key={mappedProj.id} mappedProj={mappedProj}/>}))}
-                </div>
-        
+                {}
+                {projectsData.map()}
             </div>
+
     )
 }

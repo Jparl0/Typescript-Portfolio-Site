@@ -1,5 +1,4 @@
 import HeaderPic from './assets/photos/header-pic.png'
-import { projectsData } from '../data/projects/projectsData'
 import ProjectSection from '../components/ProjectSection'
 
 export default function HomePage(): JSX.Element {
@@ -53,7 +52,7 @@ export default function HomePage(): JSX.Element {
           </h2>
           <div className='projects-container'>
             {
-              <ProjectSection projects={projectsData}/>
+              <ProjectSection />
             }
           </div>
         </div>

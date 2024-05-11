@@ -1,16 +1,10 @@
 import { Project } from '../data/projects/projectsData'
 
-interface IncomingProjectProp extends Project{
-    // isMounted: true
-    mappedProj: Project
-}
-
-export default function ProjectItem(props: IncomingProjectProp): JSX.Element {
-    const {mappedProj} = props
-    const {id, title, img_src, link, description} = mappedProj
+export default function ProjectItem(props: Project): JSX.Element {
+    const {id, title, img_src, link, description} = props
     
     return (
-        <div className='project-cards'>
+        <div className='project-cards' key={id}>
             <h3 className='proj-card-titles'>{title}</h3>
             <p>{description}</p>
             <img
