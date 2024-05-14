@@ -15,7 +15,7 @@ export default function ProjectSection(): JSX.Element {
         // Maps over the Array of Project Objects to dynamically render each Project with corresponding data
             <div>
                 {}
-                {projectsData.map()}
+                {projectsData.map((mappedProj) => (renderProjects(mappedProj)))}
             </div>
 
     )
