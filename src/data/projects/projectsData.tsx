@@ -1,9 +1,21 @@
-export interface Project {
+export interface ProjectProps {
     id: number
     title: string
     img_src: string
     link: string
     description: string
+  }
+
+  class Project implements ProjectProps {
+    
+    constructor(id: number, title: string, img_src: string, link: string, description: string) {
+      this.id = id;
+      this.title = title;
+      this.img_src = img_src;
+      this.link = link;
+      this.description = description;
+    }
+    
   }
 
 export const projectsData = [

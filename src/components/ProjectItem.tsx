@@ -1,6 +1,6 @@
-import { Project } from '../data/projects/projectsData'
+import { ProjectProps } from '../data/projects/projectsData'
 
-export default function ProjectItem(props: Project): JSX.Element {
+export default function ProjectItem(props: ProjectProps): React.Component {
     const {id, title, img_src, link, description} = props
     
     return (
