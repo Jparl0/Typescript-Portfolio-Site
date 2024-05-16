@@ -1,21 +1,22 @@
 import { ProjectProps } from '../data/projects/projectsData'
 
-export default function ProjectItem(props: ProjectProps): React.Component {
+export default function ProjectItem(props: ProjectProps): React.Component | null {
     const {id, title, img_src, link, description} = props
     
-    return (
-        <div className='project-cards' key={id}>
-            <h3 className='proj-card-titles'>{title}</h3>
-            <p>{description}</p>
-            <img
-                src={require(`${img_src}`)}
-                alt={title}
-                className='proj-card-images'
-            /> 
-            <form action={link}>
-                <button type='submit'>GitHub Link</button>
-            </form>
-            {/* <button> Favorite </button> */}
-        </div>
-  )
+        return (
+            <div className='project-cards' key={id}>
+                <h3 className='proj-card-titles'>{title}</h3>
+            <   p>{description}</p>
+                <img
+                    src={require(`${img_src}`)}
+                    alt={title}
+                    className='proj-card-images'
+                /> 
+                <form action={link}>
+                    <button type='submit'>GitHub Link</button>
+                </form>
+                {/* <button> Favorite </button> */}
+            </div>
+        )
+
 }

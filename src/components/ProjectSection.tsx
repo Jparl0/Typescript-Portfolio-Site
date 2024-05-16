@@ -2,15 +2,15 @@ import React from 'react'
 import ProjectItem from '../components/ProjectItem'
 import { ProjectProps, projectsData } from '../data/projects/projectsData'
 
-function renderProjects(renderedProj: ProjectProps): React.Component {
+function renderProjects(renderedProj: ProjectProps): React.Component | null {
     return (
-        <div>
+        
             <ProjectItem {...renderedProj}/>
-        </div>
+        
     )
 }
 
-export default function ProjectSection(): JSX.Element {
+export default function ProjectSection(): JSX.Element  {
     
     return (
         // Maps over the Array of Project Objects to dynamically render each Project with corresponding data

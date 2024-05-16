@@ -7,15 +7,20 @@ export interface ProjectProps {
   }
 
   class Project implements ProjectProps {
-    
-    constructor(id: number, title: string, img_src: string, link: string, description: string) {
+  
+    constructor(public id: number, public title: string, public img_src: string, public link: string, public description: string) {
       this.id = id;
       this.title = title;
       this.img_src = img_src;
       this.link = link;
       this.description = description;
     }
-    
+    get Project(): ProjectProps{
+      return this
+    }
+    set Project(value: object): {
+      
+    }
   }
 
 export const projectsData = [
