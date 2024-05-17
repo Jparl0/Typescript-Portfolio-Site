@@ -1,6 +1,6 @@
 import { ProjectProps } from '../data/projects/projectsData'
 
-export default function ProjectItem(props: ProjectProps): React.Component | null {
+export default function ProjectItem(props: ProjectProps): React.Component {
     const {id, title, img_src, link, description} = props
     
         return (
