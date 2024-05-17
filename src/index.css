@@ -85,11 +85,11 @@ li a {
  
 } */
 
-.projects-div {
+.repo-div {
   padding: 75px;
 }
 
-.project-cards {
+.repo-cards {
   display: inline-block;
   margin: 20px;
   padding-left: 20px;
@@ -103,15 +103,15 @@ li a {
   height: 500px;
 }
 
-.proj-card-titles {
+.repo-card-titles {
   padding-top: 15px;
 }
 
-.proj-card-descr {
+.repo-card-descr {
   padding: 1px;
 }
 
-.proj-card-images {
+.repo-card-images {
   padding: 30px;
   align-items: center;
   height: auto;

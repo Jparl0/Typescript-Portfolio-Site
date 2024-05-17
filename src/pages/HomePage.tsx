@@ -1,7 +1,7 @@
-import HeaderPic from './assets/photos/header-pic.png'
-import ProjectSection from '../components/ProjectSection'
+import RepoSection from '../components/RepoSection'
 
 export default function HomePage(): JSX.Element {
+
     return (
         <div className="main-page" id="main-page">
         {/* Header Section */}
@@ -25,7 +25,7 @@ export default function HomePage(): JSX.Element {
           </div>
         {/* Header Img */}
           <div className='img-header'>
-            <img src={HeaderPic} alt=''/>
+            {/* <img src='./assets/photos/header-pic.png' alt=''/> */}
           </div>
         </header>
 
@@ -46,14 +46,14 @@ export default function HomePage(): JSX.Element {
           </div>
         </div>
         {/* Projects section with Projects Component */}
-        <div className="projects-div" id="projects-div">
+        <div className="repo-div" id="repo-div">
           <h2>
-              Projects
+              Repo
           </h2>
-          <div className='projects-container'>
-            {
-              <ProjectSection />
-            }
+          <div className='repo-container'>
+            
+              <RepoSection />
+            
           </div>
         </div>
         {/* Tech Skills Component*/}
