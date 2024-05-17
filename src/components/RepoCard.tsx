@@ -4,9 +4,9 @@ export default function RepoCard (props: Repo): JSX.Element {
     const {id, title, img_src, link, description} = props
     
         return (
-            <div className='Repo-cards' key={id}>
+            <div className='repo-cards' key={id}>
                 <h3 className='repo-card-titles'>{title}</h3>
-                <p>{description}</p>
+                <p className='repo-card-descr'>{description}</p>
                 <img
                     src={img_src}
                     alt={title}

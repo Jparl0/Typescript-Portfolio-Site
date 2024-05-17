@@ -18,14 +18,14 @@ export default function HomePage(): JSX.Element {
                 I'm Joey Parlamenti, a Full-Stack Web Developer based in Manhattan, New York.
             </h3>
             <button>
-              <a href="#contact-div">
+              <a href="mailto:joeyparlamenti@gmail.com">
                 Contact Me
               </a>
             </button>
           </div>
         {/* Header Img */}
           <div className='img-header'>
-            {/* <img src='./assets/photos/header-pic.png' alt=''/> */}
+            <img src='./photos/header-pic.png' alt=''/>
           </div>
         </header>
 
@@ -48,23 +48,21 @@ export default function HomePage(): JSX.Element {
         {/* Projects section with Projects Component */}
         <div className="repo-div" id="repo-div">
           <h2>
-              Repo
+              Repos
           </h2>
           <div className='repo-container'>
-            
               <RepoSection />
-            
           </div>
         </div>
         {/* Tech Skills Component*/}
-        <div className='skills-section'>
+        {/* <div className='skills-section'>
           <h2 id='tech-skill-title'>
             Tech Skills
           </h2>
-        <div className='outer-skills-container'>
-        {/* <TechSkills /> */}
-        </div>
-        </div>
+          <div className='outer-skills-container'>
+            <TechSkills />
+          </div>
+        </div> */}
         {/* Contact-me section */}
         <div className="contact-div" id="contact-div">
           <h3>

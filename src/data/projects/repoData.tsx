@@ -21,7 +21,7 @@ export class Repo {
 const repo1Data = new Repo({
   id: 1,
   title: "Satisfactory Planner", 
-  img_src: "./assets/photos/Satisfactory.jpeg", 
+  img_src: "./photos/Satisfactory.jpeg", 
   link: "https://github.com/Jparl0/Satsifactory-Planner-2.0",
   description: "This app allows players of the video game Satisfactory to visualize the game's data based on their personal factory systems to assist in strategizing future planning."
 })
@@ -29,7 +29,7 @@ const repo1Data = new Repo({
 const repo2Data = new Repo({
   id: 2,
   title: "DC2 Text Scrapper", 
-  img_src: "./assets/photos/github.png", 
+  img_src: "./photos/github.png", 
   link: "https://github.com/Jparl0/Dark-Cloud-2-Web_Scraper",
   description: "Using Go, this application combs over a single page application searching for specific information. This information is then categorized and stored in a database for later use."
 })
