@@ -9,6 +9,7 @@ import { ReactComponent as RubyLogo } from './skill_images/ruby-plain-wordmark.s
 
 export function TechSkills() {
 
+  const skillLogos = {CssLogo, GitLogo, Html5Logo, JsLogo, PostLogo, RailsLogo,}
   //SVG components rendered below
   return (
     <div className='skill-container'>
