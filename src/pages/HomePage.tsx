@@ -1,4 +1,6 @@
 import RepoSection from '../components/RepoSection'
+import TechSkillsSection from '../components/TechSkillsSection'
+
 
 export default function HomePage(): JSX.Element {
 
@@ -55,14 +57,14 @@ export default function HomePage(): JSX.Element {
           </div>
         </div>
         {/* Tech Skills Component*/}
-        {/* <div className='skills-section'>
+        <div className='skills-section'>
           <h2 id='tech-skill-title'>
             Tech Skills
           </h2>
           <div className='outer-skills-container'>
-            <TechSkills />
+            <TechSkillsSection />
           </div>
-        </div> */}
+        </div>
         {/* Contact-me section */}
         <div className="contact-div" id="contact-div">
           <h3>
