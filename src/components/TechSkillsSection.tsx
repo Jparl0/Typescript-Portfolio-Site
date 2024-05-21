@@ -3,9 +3,9 @@ import { ReactComponent as GitLogo } from '../assets/skill-images/github-origina
 import { ReactComponent as Html5Logo } from '../assets/skill-images/html5-original-wordmark.svg';
 import { ReactComponent as JsLogo } from '../assets/skill-images/javascript-original.svg';
 import { ReactComponent as PostLogo } from '../assets/skill-images/postgresql-original-wordmark.svg';
-import { ReactComponent as RailsLogo } from '../assets/skill-images/rails-original-wordmark.svg';
+// import { ReactComponent as RailsLogo } from '../assets/skill-images/rails-original-wordmark.svg';
 import { ReactComponent as ReactLogo } from '../assets/skill-images/react-original-wordmark.svg';
-import { ReactComponent as RubyLogo } from '../assets/skill-images/ruby-plain-wordmark.svg';
+import { ReactComponent as TypeLogo } from '../assets/skill-images/typescript-logo-2020.svg';
 
 export function TechSkillsSection(): JSX.Element {
 
@@ -34,11 +34,11 @@ export function TechSkillsSection(): JSX.Element {
           <PostLogo />
         </li>
         <li className='skill-logos-li'>
-          <RubyLogo />
+          <TypeLogo />
         </li>
-        <li className='skill-logos-li'>
+        {/* <li className='skill-logos-li'>
           <RailsLogo />
-        </li>
+        </li> */}
         {/* <form action={mappedProj.link}>
               <button type='submit'>GitHub Link</button>
         </form> */}

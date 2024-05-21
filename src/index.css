@@ -154,6 +154,7 @@ li a {
   padding: auto;
   display: inline;
 }
+
 .contact-div {
   background-color: black;
   color: white;
@@ -161,5 +162,6 @@ li a {
 }
 
 svg {
+  height: auto;
   width: 20%;
 }
