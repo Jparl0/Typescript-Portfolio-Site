@@ -1,3 +1,4 @@
+import NavBar from '../components/NavBar'
 import RepoSection from '../components/RepoSection'
 import TechSkillsSection from '../components/TechSkillsSection'
 
@@ -10,7 +11,7 @@ export default function HomePage(): JSX.Element {
         <header className='header'>
           {/* Nav Bar component */}
           <div className="outer-nav" id="outer-nav">
-              {/* <NavBar /> */}
+              <NavBar />
           </div >        
           <div className='header-text'>
             <h1 id='welcome-text'>
@@ -70,7 +71,9 @@ export default function HomePage(): JSX.Element {
           <h3>
             Contact me here 
           </h3>
-           JoeyParlamenti@gmail.com
+          <a href="mailto:joeyparlamenti@gmail.com">
+            JoeyParlamenti@gmail.com
+          </a>
         </div>
     </div>
     )

@@ -3,11 +3,10 @@ import { ReactComponent as GitLogo } from '../assets/skill-images/github-origina
 import { ReactComponent as Html5Logo } from '../assets/skill-images/html5-original-wordmark.svg';
 import { ReactComponent as JsLogo } from '../assets/skill-images/javascript-original.svg';
 import { ReactComponent as PostLogo } from '../assets/skill-images/postgresql-original-wordmark.svg';
-// import { ReactComponent as RailsLogo } from '../assets/skill-images/rails-original-wordmark.svg';
 import { ReactComponent as ReactLogo } from '../assets/skill-images/react-original-wordmark.svg';
 import { ReactComponent as TypeLogo } from '../assets/skill-images/typescript-logo-2020.svg';
 
-export function TechSkillsSection(): JSX.Element {
+export default function TechSkillsSection(): JSX.Element {
 
   // const skillLogos = {CssLogo, GitLogo, Html5Logo, JsLogo, PostLogo, RailsLogo,}
   //SVG components rendered below
@@ -46,5 +45,3 @@ export function TechSkillsSection(): JSX.Element {
     </div>
   )
 }
-
-export default TechSkillsSection
