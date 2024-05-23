@@ -128,33 +128,6 @@ li a {
   box-shadow: 0 4px 8px 0 rgba(241, 110, 110, 0.911);
 }
 
-.skills-section {
-  padding: 75px;
-} 
-
-#tech-skill-title {
-  padding-left: 140px;
-}
-
-.outer-skills-container {
-  margin: auto;
-  background-color: rgba(223, 224, 224, 0.344);
-  box-shadow: 0 4px 8px 0 rgba(241, 110, 110, 0.911);
-  padding: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
-  height: auto;
-  width: 1000px;
-}
-
-.skill-logos-li {
-  list-style-type: none;
-  padding: 10px;
-  margin: auto;
-  padding: auto;
-  display: inline;
-}
-
 .contact-div {
   background-color: black;
   color: white;

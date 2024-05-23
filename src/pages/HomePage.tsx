@@ -1,7 +1,25 @@
+import { css } from '@emotion/css'
 import NavBar from '../components/NavBar'
 import RepoSection from '../components/RepoSection'
 import TechSkillsSection from '../components/TechSkillsSection'
 
+const outerSkillsContainerCss = css`
+  margin: auto;
+  background-color: rgba(223, 224, 224, 0.344);
+  box-shadow: 0 4px 8px 0 rgba(241, 110, 110, 0.911);
+  padding: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: auto;
+  width: 1000px;
+`
+const skillSectionContainerCss = css`
+  padding: 75px;
+`
+
+const skillSectionTitleCss = css`
+  padding-left: 140px;
+`
 
 export default function HomePage(): JSX.Element {
 
@@ -58,11 +76,11 @@ export default function HomePage(): JSX.Element {
           </div>
         </div>
         {/* Tech Skills Component*/}
-        <div className='skills-section'>
-          <h2 id='tech-skill-title'>
+        <div className={skillSectionContainerCss}>
+          <h2 className={skillSectionTitleCss}>
             Tech Skills
           </h2>
-          <div className='outer-skills-container'>
+          <div className={outerSkillsContainerCss}>
             <TechSkillsSection />
           </div>
         </div>
