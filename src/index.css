@@ -51,12 +51,6 @@ header {
   float: right;
 }
 
-.nav-list-li {
-  display: block;
-  float: right;
-  padding-top: 15px;
-}
-
 .nav-list-links {
   text-align: center;
   padding: 20px;
@@ -76,10 +70,6 @@ li a {
   text-align: center;
   background-color: rgb(255, 255, 255);
 }
-
-/* li a:hover {
- 
-} */
 
 .repo-div {
   padding: 75px;
