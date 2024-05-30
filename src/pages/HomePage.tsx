@@ -22,7 +22,6 @@ const skillSectionTitleCss = css`
 `
 
 export default function HomePage(): JSX.Element {
-
     return (
         <div className="main-page" id="main-page">
         {/* Header Section */}

@@ -2,7 +2,6 @@ import { Repo } from '../data/projects/repoData'
 
 export default function RepoCard (props: Repo): JSX.Element {
     const {id, title, img_src, link, description} = props
-    
         return (
             <div className='repo-cards' key={id}>
                 <h3 className='repo-card-titles'>{title}</h3>
