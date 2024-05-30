@@ -21,6 +21,14 @@ const skillSectionTitleCss = css`
   padding-left: 140px;
 `
 
+const repoDivCss = css`
+    padding: 75px;
+`
+
+const repoContainerCss = css`
+    padding: 0px;
+`
+
 export default function HomePage(): JSX.Element {
     return (
         <div className="main-page" id="main-page">
@@ -66,11 +74,11 @@ export default function HomePage(): JSX.Element {
           </div>
         </div>
         {/* Projects section with Projects Component */}
-        <div className="repo-div" id="repo-div">
+        <div className={repoDivCss}>
           <h2>
               Repos
           </h2>
-          <div className='repo-container'>
+          <div className={repoContainerCss}>
               <RepoSection />
           </div>
         </div>

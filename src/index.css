@@ -71,39 +71,6 @@ li a {
   background-color: rgb(255, 255, 255);
 }
 
-.repo-div {
-  padding: 75px;
-}
-
-.repo-cards {
-  display: inline-block;
-  margin: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  box-shadow: 0 4px 8px 0 rgba(241, 110, 110, 0.911);
-  transition: 0.3s;
-  width: 600px;
-  background-color: rgba(223, 224, 224, 0.344);
-  text-align: center;
-  height: 500px;
-}
-
-.repo-card-titles {
-  padding-top: 15px;
-}
-
-.repo-card-descr {
-  padding: 1px;
-}
-
-.repo-card-images {
-  padding: 30px;
-  align-items: center;
-  height: auto;
-  width: 500px;
-}
-
 .about-div {
   padding: 75px;
 }
