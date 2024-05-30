@@ -20,11 +20,11 @@ const repoCardTitlesCss = css`
 `
 
 const repoCardDescr = css`
-    padding: 1px;
+    padding: 0px 45px;
 `
 
 const repoCardImages = css`
-    padding: 30px;
+    padding: 15px;
     align-items: center;
     height: auto;
     width: 500px;

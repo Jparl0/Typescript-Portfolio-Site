@@ -25,7 +25,7 @@ const repoDivCss = css`
     padding: 75px;
 `
 
-const repoContainerCss = css`
+const outerRepoContainerCss = css`
     padding: 0px;
 `
 
@@ -78,7 +78,7 @@ export default function HomePage(): JSX.Element {
           <h2>
               Repos
           </h2>
-          <div className={repoContainerCss}>
+          <div className={outerRepoContainerCss}>
               <RepoSection />
           </div>
         </div>

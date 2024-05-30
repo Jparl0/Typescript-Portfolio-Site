@@ -30,7 +30,7 @@ const repo2Data = new Repo({
   title: "DC2 Text Scrapper", 
   img_src: "./photos/github.png", 
   link: "https://github.com/Jparl0/Dark-Cloud-2-Web_Scraper",
-  description: "Using Go, this application combs over a single page application searching for specific information. This information is then categorized and stored in a database for later use."
+  description: "Utilizing Python for the backend, this application combs over a single page application searching and displaying information vital to a childhood game. This information is then categorized and stored in a database for visualization and analysis."
 })
 
 const repo3Data = new Repo({
