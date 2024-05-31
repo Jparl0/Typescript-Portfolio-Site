@@ -3,6 +3,10 @@ import NavBar from '../components/NavBar'
 import RepoSection from '../components/RepoSection'
 import TechSkillsSection from '../components/TechSkillsSection'
 
+const skillSectionContainerCss = css`
+  padding: 40px 75px;
+`
+
 const outerSkillsContainerCss = css`
   margin: auto;
   background-color: rgba(223, 224, 224, 0.344);
@@ -13,21 +17,34 @@ const outerSkillsContainerCss = css`
   height: auto;
   width: 1000px;
 `
-const skillSectionContainerCss = css`
-  padding: 75px;
-`
 
 const skillSectionTitleCss = css`
   padding-left: 140px;
 `
 
 const repoDivCss = css`
-    padding: 75px;
+  padding: 20px 75px;
 `
 
 const outerRepoContainerCss = css`
     padding: 0px;
 `
+
+const aboutDivCss = css`
+  padding: 40px 75px;
+`
+
+const aboutDivParaCss = css`
+  font-size: x-large;
+  padding: 10px 30px;
+  background-color: rgba(223, 224, 224, 0.344);
+  box-shadow: 0 4px 8px 0 rgba(241, 110, 110, 0.911);
+`
+
+const aboutParaCss = css`
+  margin: 12px 18px;
+`
+
 
 export default function HomePage(): JSX.Element {
     return (
@@ -58,18 +75,20 @@ export default function HomePage(): JSX.Element {
         </header>
 
         {/* About-me section */}
-        <div className='about-div' id='about-div'>
+        <div className={aboutDivCss}>
           <h2> About me </h2>
             <h4>
                 Web Developer | Project Management
             </h4>
-          <div id='about-para'>
-            <p id='about-text'>
-              As someone who has always had a passion for games growing up, I've developed a fascination with any kind of puzzle or problem I could try to solve. 
-              From console games to computer games, my obsession with figuring out the most optimal ways of winning or playing has permeated any and all types of interactive entertainment I engage with. 
-              FlatIron School's Software Engineering program was the perfect place to transition those strong desires to find solutions and optimize processes into meaningful skills. 
-              Leaving my previous career in Project Management to pursue Software Development has enabled me to create unique projects that revolve around my interests. 
-              Data Management and optimization have always been at the forefront of how I play games and lead my professional development so finding a position that allows me to develop and hone these skills is key to my long-term success in the field.
+          <div className={aboutDivParaCss}>
+            <p className={aboutParaCss}>
+              Ever since I was a kid, I've had a deep passion for games, leading to a lifelong fascination with puzzles and problem-solving. Whether it's console or computer games, I've always been obsessed with discovering the most optimal strategies for winning. This passion for efficiency and problem-solving naturally extended to my professional life.
+            </p>
+            <p className={aboutParaCss}>
+              Enrolling in FlatIron School's Software Engineering program was the perfect way to transform my enthusiasm for finding solutions and optimizing processes into practical skills. Transitioning from a career in Project Management to Software Development has allowed me to create unique projects that align with my interests and allows me to flex a creative muscle.
+            </p>
+            <p className={aboutParaCss}>
+              Data management and optimization have always been central to both my gaming and professional pursuits. I'm now seeking a position where I can further develop and refine these skills, ensuring my long-term success in the software development field.
             </p>
           </div>
         </div>

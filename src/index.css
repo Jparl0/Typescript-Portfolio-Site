@@ -71,20 +71,6 @@ li a {
   background-color: rgb(255, 255, 255);
 }
 
-.about-div {
-  padding: 75px;
-}
-
-#about-para {
-  font-size: x-large;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  background-color: rgba(223, 224, 224, 0.344);
-  box-shadow: 0 4px 8px 0 rgba(241, 110, 110, 0.911);
-}
-
 .contact-div {
   background-color: black;
   color: white;

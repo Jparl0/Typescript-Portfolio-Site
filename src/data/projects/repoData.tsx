@@ -27,19 +27,20 @@ const repo1Data = new Repo({
 
 const repo2Data = new Repo({
   id: 2,
+  title: "Canasta Clash", 
+  img_src: "./photos/github.png", 
+  link: "https://github.com/Jparl0/Canasta-Clash",
+  description: "Is a single page web application describing the classic rules for the game of Canasta and some personal variants that make the game more enjoyable for myself and my family!"
+})
+
+const repo3Data = new Repo({
+  id: 3,
   title: "DC2 Text Scrapper", 
   img_src: "./photos/github.png", 
   link: "https://github.com/Jparl0/Dark-Cloud-2-Web_Scraper",
   description: "Utilizing Python for the backend, this application combs over a single page application searching and displaying information vital to a childhood game. This information is then categorized and stored in a database for visualization and analysis."
 })
 
-const repo3Data = new Repo({
-  id: 3,
-  title: "Canasta Clash", 
-  img_src: "./photos/github.png", 
-  link: "https://github.com/Jparl0/Canasta-Clash",
-  description: "Is a single page web application describing the classic rules for the game of Canasta and some personal variants that make the game more enjoyable for myself and my family!."
-})
 
 
 
