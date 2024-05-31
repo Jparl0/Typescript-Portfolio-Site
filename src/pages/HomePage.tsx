@@ -3,33 +3,6 @@ import NavBar from '../components/NavBar'
 import RepoSection from '../components/RepoSection'
 import TechSkillsSection from '../components/TechSkillsSection'
 
-const skillSectionContainerCss = css`
-  padding: 40px 75px;
-`
-
-const outerSkillsContainerCss = css`
-  margin: auto;
-  background-color: rgba(223, 224, 224, 0.344);
-  box-shadow: 0 4px 8px 0 rgba(241, 110, 110, 0.911);
-  padding: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
-  height: auto;
-  width: 1000px;
-`
-
-const skillSectionTitleCss = css`
-  padding-left: 140px;
-`
-
-const repoDivCss = css`
-  padding: 20px 75px;
-`
-
-const outerRepoContainerCss = css`
-    padding: 0px;
-`
-
 const aboutDivCss = css`
   padding: 40px 75px;
 `
@@ -45,6 +18,37 @@ const aboutParaCss = css`
   margin: 12px 18px;
 `
 
+const outerSkillsContainerCss = css`
+  margin: auto;
+  background-color: rgba(223, 224, 224, 0.344);
+  box-shadow: 0 4px 8px 0 rgba(241, 110, 110, 0.911);
+  padding: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: auto;
+  width: 1000px;
+`
+
+const skillSectionContainerCss = css`
+  padding: 40px 75px;
+`
+
+const skillSectionTitleCss = css`
+  padding-left: 140px;
+`
+
+const outerRepoContainerCss = css`
+  padding: 0px;
+`
+
+const repoDivCss = css`
+  padding: 20px 75px;
+`
+
+const outerNavCss = css`
+  margin: auto;
+  padding-bottom: 5px;
+`
 
 export default function HomePage(): JSX.Element {
     return (
@@ -52,7 +56,7 @@ export default function HomePage(): JSX.Element {
         {/* Header Section */}
         <header className='header'>
           {/* Nav Bar component */}
-          <div className="outer-nav" id="outer-nav">
+          <div className={outerNavCss}>
               <NavBar />
           </div >        
           <div className='header-text'>

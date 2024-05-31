@@ -32,35 +32,6 @@ header {
   width: auto;
 }
 
-#outer-nav {
-  margin: auto;
-  padding-bottom: 5px;
-}
-
-#inner-nav {
-  top: 2.5%; 
-  background-color: rgb(0, 0, 0);
-  height: 50px;
-}
-
-.nav-list {
-  list-style-type: none;
-  margin: auto;
-  padding: auto;
-  display: block;
-  float: right;
-}
-
-.nav-list-links {
-  text-align: center;
-  padding: 20px;
-  background-color: rgb(255, 255, 255);
-}
-
-.nav-list-links:hover {
-  background-color: rgb(243, 160, 160);
-}
-
 img {
   width: 100%;
   height: 100%;
