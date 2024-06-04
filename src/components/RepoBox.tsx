@@ -1,7 +1,7 @@
 import { Repo } from '../data/projects/repoData'
 import { css } from '@emotion/css'
 
-const repoCardCss = css`
+const repoBoxCss = css`
     display: inline-block;
     margin: 20px;
     padding-left: 20px;
@@ -15,15 +15,15 @@ const repoCardCss = css`
     height: 500px;
 `
 
-const repoCardTitlesCss = css`
+const repoBoxTitlesCss = css`
     padding-top: 15px;
 `
 
-const repoCardDescr = css`
+const repoBoxDescr = css`
     padding: 0px 45px;
 `
 
-const repoCardImages = css`
+const repoBoxImages = css`
     padding: 15px;
     align-items: center;
     height: auto;
@@ -31,16 +31,16 @@ const repoCardImages = css`
 `
 
 
-export default function RepoCard (props: Repo): JSX.Element {
+export default function RepoBox (props: Repo): JSX.Element {
     const {id, title, img_src, link, description} = props
         return (
-            <div className={repoCardCss} key={id}>
-                <h3 className={repoCardTitlesCss}>{title}</h3>
-                <p className={repoCardDescr}>{description}</p>
+            <div className={repoBoxCss} key={id}>
+                <h3 className={repoBoxTitlesCss}>{title}</h3>
+                <p className={repoBoxDescr}>{description}</p>
                 <img
                     src={img_src}
                     alt={title}
-                    className={repoCardImages}
+                    className={repoBoxImages}
                 /> 
                 <form action={link}>
                     <button type='submit'>GitHub Link</button>

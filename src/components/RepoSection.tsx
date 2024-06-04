@@ -1,5 +1,5 @@
 import { Repo, repoData } from '../data/projects/repoData'
-import RepoCard from '../components/RepoCard'
+import RepoBox from './RepoBox'
 import { css } from '@emotion/css'
 
 
@@ -16,7 +16,7 @@ export default function RepoSection(): JSX.Element {
             <div className={innerRepoContainerCss}>
                 {
                     repoData.map((mappedRepo: Repo) => {
-                        return (<RepoCard {...mappedRepo} key={mappedRepo.id}/>)
+                        return (<RepoBox {...mappedRepo} key={mappedRepo.id}/>)
                     })
                 }
             </div>
