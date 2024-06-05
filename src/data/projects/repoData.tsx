@@ -41,8 +41,4 @@ const repo3Data = new Repo({
   description: "Currently still in Development, iy utilizes Python for the backend, this application combs over a single page application searching and displaying information vital to a childhood game. This information is then categorized and stored in a database for visualization and analysis."
 })
 
-
-
-
 export const repoData = [repo1Data, repo2Data, repo3Data]
-    
