@@ -1,3 +1,5 @@
+let faceValue: [number, string];
+
 export class Card {
 
   id: number;
