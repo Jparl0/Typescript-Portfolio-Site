@@ -50,6 +50,13 @@ const outerNavCss = css`
   padding-bottom: 5px;
 `
 
+const imageHeaderCss = css`
+  float: right;
+  right: 50%;
+  height: 350px;
+  width: auto;
+`
+
 export default function HomePage(): JSX.Element {
     return (
         <div className="main-page" id="main-page">
@@ -73,7 +80,7 @@ export default function HomePage(): JSX.Element {
             </button>
           </div>
         {/* Header Img */}
-          <div className='img-header'>
+          <div className={imageHeaderCss}>
             <img src='./photos/header-pic.png' alt=''/>
           </div>
         </header>

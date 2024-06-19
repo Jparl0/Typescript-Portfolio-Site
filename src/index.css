@@ -18,20 +18,6 @@ header {
   color: white;
 }
 
-.header-text {
-  display: inline-block;
-  margin: auto;
-  padding: 40px;
-  left: 50%;
-}
-
-.img-header {
-  float: right;
-  right: 50%;
-  height: 350px;
-  width: auto;
-}
-
 img {
   width: 100%;
   height: 100%;
