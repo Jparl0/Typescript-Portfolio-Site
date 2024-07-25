@@ -108,13 +108,13 @@ export default function HomePage(): JSX.Element {
             </h4>
           <div className={aboutDivParaCss}>
             <p className={aboutParaCss}>
-              Ever since I was a kid, I've had a deep passion for games, leading to a lifelong fascination with puzzles and problem-solving. Whether it's console or computer games, I've always been obsessed with discovering the most optimal strategies for winning. This passion for efficiency and problem-solving naturally extended to my professional life.
+              Ever since my older brother introduced me to the GBA, I've had a deep passion for games. Fascination with puzzles and problem-solving games, I've always been obsessed with discovering the most optimal sequences for winning. This passion for efficiency lead me to change fields from Project Management into Full-Stack Development.
             </p>
             <p className={aboutParaCss}>
-              Enrolling in FlatIron School's Software Engineering program was the perfect way to transform my enthusiasm for finding solutions and optimizing processes into practical skills. Transitioning from a career in Project Management to Software Development has allowed me to create unique projects that align with my interests and allows me to flex a creative muscle.
+              Enrolling in FlatIron School's Software Engineering program was the perfect way to transform my enthusiasm for finding solutions and optimizing processes into practical skills. Transitioning careers has allowed me to create unique projects that align with my interests and allows me to flex a creative muscle I otherwise couldn't.
             </p>
             <p className={aboutParaCss}>
-              Data management and optimization have always been central to both my gaming and professional pursuits. I'm now seeking a position where I can further develop and refine these skills, ensuring my long-term success in the software development field.
+              Even though I'm neither musical or artistic, Software Development gives me the ability to create theoretically anything I can imagine. Data management and optimization have always been at the forefront of that creation, introducing me to DSAs to properly process the myriad of information. I'm now seeking a position where I can further develop and refine these skills, ensuring my long-term success in the Software Development field.
             </p>
           </div>
         </div>
