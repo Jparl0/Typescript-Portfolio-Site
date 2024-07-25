@@ -41,6 +41,16 @@ const outerRepoContainerCss = css`
   padding: 0px;
 `
 
+const outerTextContainerCss = css`
+  padding: 0px;
+`
+
+const innerTextContainerCss = css`
+  float: left;
+  padding-left: 75px;
+`
+
+
 const repoDivCss = css`
   padding: 20px 75px;
 `
@@ -52,7 +62,7 @@ const outerNavCss = css`
 
 const imageHeaderCss = css`
   float: right;
-  right: 50%;
+  right: 25%;
   height: 350px;
   width: auto;
 `
@@ -65,24 +75,29 @@ export default function HomePage(): JSX.Element {
           {/* Nav Bar component */}
           <div className={outerNavCss}>
               <NavBar />
-          </div >        
-          <div className='header-text'>
-            <h1 id='welcome-text'>
-              Welcome!
-            </h1>
-            <h3>
-                I'm Joey Parlamenti, a Full-Stack Web Developer based in Manhattan, New York.
-            </h3>
-            <button>
-              <a href="mailto:joeyparlamenti@gmail.com">
-                Contact Me
-              </a>
-            </button>
-          </div>
-        {/* Header Img */}
-          <div className={imageHeaderCss}>
-            <img src='./photos/header-pic.png' alt=''/>
-          </div>
+          </div >
+          <div className={outerTextContainerCss}>
+            {/* Header Text Container */}
+            <div className={innerTextContainerCss}>
+              <h1 id='welcome-text'>
+                Welcome!
+              </h1>
+              <h3>
+                  I'm Joey Parlamenti, a Full-Stack Web Developer based in Manhattan, New York.
+              </h3>
+              <button>
+                <a href="mailto:joeyparlamenti@gmail.com">
+                  Contact Me
+                </a>
+              </button>
+            </div>
+            {/* Header Img */}
+            <div className={imageHeaderCss}>
+              <img src='./photos/header-pic.png' alt=''/>
+            </div>
+          </div>        
+          
+          
         </header>
 
         {/* About-me section */}
