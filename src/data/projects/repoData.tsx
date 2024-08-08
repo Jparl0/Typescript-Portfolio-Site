@@ -27,18 +27,26 @@ const repo1Data = new Repo({
 
 const repo2Data = new Repo({
   id: 2,
+  title: "Holistic Health Handbook", 
+  img_src: "./photos/github.png", 
+  link: "https://github.com/Jparl0/Holistic-Health-Handbook",
+  description: "Currently still in Development. A long-term passion-project that is a comprehensive website designed to educate other on various aspects of health. Intend to turn it into a low-cost SaaS aimed at providing users with easy ways to visualize different dimensions of their wellness."
+})
+
+const repo3Data = new Repo({
+  id: 3,
   title: "Canasta Clash", 
   img_src: "./photos/github.png", 
   link: "https://github.com/Jparl0/Canasta-Clash",
   description: "Currently still in Development. Initially a single page application (SPA) describing the classic rules for the game of Canasta and some personal variants that make the game more enjoyable for myself and my family. Aim to potentially turn into a SaaS application"
 })
 
-const repo3Data = new Repo({
-  id: 3,
+const repo4Data = new Repo({
+  id: 4,
   title: "DC2 Text Scrapper", 
   img_src: "./photos/github.png", 
   link: "https://github.com/Jparl0/Dark-Cloud-2-Web_Scraper",
   description: "Currently still in Development. Utilizes Python to scrape over a single page application (SPA) searching and displaying information vital to a nostalgic game from my childhood. This information is then categorized and stored in a database for visualization and analysis."
 })
 
-export const repoData = [repo1Data, repo2Data, repo3Data]
+export const repoData = [repo1Data, repo2Data, repo3Data, repo4Data]
