@@ -108,13 +108,13 @@ export default function HomePage(): JSX.Element {
             </h4>
           <div className={aboutDivParaCss}>
             <p className={aboutParaCss}>
-              Ever since my older brother introduced me to the GBA, I've had a deep passion for games. Fascination with puzzles and problem-solving games, I've always been obsessed with discovering the most optimal sequences for winning. This passion for efficiency lead me to change fields from Project Management into Full-Stack Development.
+              A former collegiate volleyball player looking to make lasting impacts in production-quality systems. With a degree in the Health Behavior Science, alongside years of experience in Project Management & Customer Support, I've gained a unique perspective to approach any challenge with. 
             </p>
             <p className={aboutParaCss}>
-              Enrolling in FlatIron School's Software Engineering program was the perfect way to transform my enthusiasm for finding solutions and optimizing processes into practical skills. Transitioning careers has allowed me to create unique projects that align with my interests and allows me to flex a creative muscle I otherwise couldn't.
+              After being diagnosed with ADHD/OCD and adapting to the learning obstacles it presented, I believe it has provided me another facet to think in an otherwise unconventional manner.
             </p>
             <p className={aboutParaCss}>
-              Even though I'm neither musical or artistic, Software Development gives me the ability to create theoretically anything I can imagine. Data management and optimization have always been at the forefront of that creation, introducing me to DSAs to properly process the myriad of information. I'm now seeking a position where I can further develop and refine these skills, ensuring my long-term success in the Software Development field.
+              Even though I'm not musical/artistic, Software Development has given me the ability to create anything I can imagine. Data management and optimization have always been at the forefront of that creation, introducing me to DSAs to properly process the myriad of information. I'm now seeking a position where I can further develop and refine these skills, ensuring my long-term success in the Software Development field.
             </p>
           </div>
         </div>
